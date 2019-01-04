@@ -1,6 +1,6 @@
 # HomeKit for Bluetooth (BLE)
 
-**This project has moved to https://gitlab.com/timwilkinson/HomeKit**
+Forked from aanon4/HomeKit. 
 
 Apple's HomeKit protocol supports both IP and BLE devices. While there appear to be a few open source implementations
 of IP stacks around (notably https://github.com/KhaosT/HAP-NodeJS), I couldn't find any BLE stacks. So, here's one for
@@ -12,6 +12,10 @@ setup.
 # NOTE
 
 **This code hasn't been updated in a long time, and it's been drawn to my attention that Apple's newer BLE spec for HomeKit is vastly different to this version.**
+
+I'm looking at what it takes ot updte to the latest Relase 1 Apple specs. for nwo this wil compile and yuo can pair from a IOS 11 device. (IOS 12 give a doamin error).  You must using the NRF51 SDK version 9. It doesn't compile with other versions.
+
+To get going donwlaod and instlal Eclipse. Use the Eclipse import function to import this code straight form github. You also need to downlaod the NRF51 SDK veriosn 9, copy it into the eclipse workspace directory and then in eclipse use the import wizard to import from file system.  
 
 # Code
 
