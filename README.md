@@ -13,9 +13,9 @@ setup.
 
 **This code hasn't been updated in a long time, and it's been drawn to my attention that Apple's newer BLE spec for HomeKit is vastly different to this version.**
 
-I'm looking at what it takes ot updte to the latest Relase 1 Apple specs. for nwo this wil compile and yuo can pair from a IOS 11 device. (IOS 12 give a doamin error).  You must using the NRF51 SDK version 9. It doesn't compile with other versions.
+I'm looking at what it takes to update to the latest Relase 1 Apple specs, protocol version 02.01.00 for now this wil compile and you can pair from a IOS 11 device. (IOS 12 gives a domain error).  You must use the NRF51 SDK version 9. It doesn't compile with other versions.
 
-To get going donwlaod and instlal Eclipse. Use the Eclipse import function to import this code straight form github. You also need to downlaod the NRF51 SDK veriosn 9, copy it into the eclipse workspace directory and then in eclipse use the import wizard to import from file system.  
+To get going download and install Eclipse. Use the Eclipse import function to import this code straight from github. You also need to download the NRF51 SDK veriosn 9, copy it into the eclipse workspace directory and then in eclipse use the import wizard to import from file system.  
 
 # Code
 
